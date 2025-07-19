@@ -1,6 +1,6 @@
-# todouygulamasi
+# getfit
 
-A new Flutter project.
+A simple Flutter fitness app demonstrating GetX state management.
 
 ## Getting Started
 
