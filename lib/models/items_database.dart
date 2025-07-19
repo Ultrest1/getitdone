@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:todouygulamasi/models/item.dart';
+import 'package:getfit/models/item.dart';
 
 class ItemDataBase with ChangeNotifier {
   final List<Item> _items = [

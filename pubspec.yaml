@@ -1,4 +1,4 @@
-name: todouygulamasi
+name: getfit
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -32,6 +32,7 @@ dependencies:
   provider: ^6.0.3
   shared_preferences: ^2.0.15
   easy_splash_screen: ^1.0.4
+  get: ^4.6.5
 
 
   # The following adds the Cupertino Icons font to your application.

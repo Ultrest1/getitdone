@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todouygulamasi/models/items_database.dart';
+import 'package:getfit/models/items_database.dart';
 
 class ItemAdder extends StatelessWidget {
   final textController = TextEditingController();

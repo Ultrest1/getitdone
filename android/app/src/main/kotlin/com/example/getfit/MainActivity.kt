@@ -1,4 +1,4 @@
-package com.example.todouygulamasi
+package com.example.getfit
 
 import io.flutter.embedding.android.FlutterActivity
 

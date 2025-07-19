@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todouygulamasi/models/items_database.dart';
-import 'package:todouygulamasi/screens/settings.dart';
+import 'package:getfit/models/items_database.dart';
+import 'package:getfit/screens/settings.dart';
 
 import '../widgets/items_card.dart';
 import 'item_adder.dart';
