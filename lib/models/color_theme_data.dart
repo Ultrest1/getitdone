@@ -8,7 +8,8 @@ class ColorThemeData with ChangeNotifier {
     primaryColor: Colors.green,
     primarySwatch: Colors.green, //yesil ve yesilin tonları,
     scaffoldBackgroundColor: Colors.green,
-    accentColor: Colors.green,
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)
+        .copyWith(secondary: Colors.green),
     textTheme: TextTheme(
       subtitle1: TextStyle(color: Colors.white),
       headline3: TextStyle(color: Colors.white),
@@ -21,7 +22,8 @@ class ColorThemeData with ChangeNotifier {
     primaryColor: Colors.red,
     primarySwatch: Colors.red, //yesil ve yesilin tonları,
     scaffoldBackgroundColor: Colors.red,
-    accentColor: Colors.red,
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
+        .copyWith(secondary: Colors.red),
     textTheme: TextTheme(
       subtitle1: TextStyle(color: Colors.white),
       headline3: TextStyle(color: Colors.white),
@@ -34,7 +36,8 @@ class ColorThemeData with ChangeNotifier {
     primaryColor: Colors.orangeAccent,
     //yesil ve yesilin tonları,
     scaffoldBackgroundColor: Colors.orangeAccent,
-    accentColor: Colors.orangeAccent,
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.orange)
+        .copyWith(secondary: Colors.orangeAccent),
     textTheme: TextTheme(
       subtitle1: TextStyle(color: Colors.orangeAccent),
       headline3: TextStyle(color: Colors.orangeAccent),
@@ -48,7 +51,8 @@ class ColorThemeData with ChangeNotifier {
     primaryColor: Colors.green,
     primarySwatch: Colors.green, //yesil ve yesilin tonları,
     scaffoldBackgroundColor: Colors.green,
-    accentColor: Colors.green,
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)
+        .copyWith(secondary: Colors.green),
     textTheme: TextTheme(
       subtitle1: TextStyle(color: Colors.white),
       headline3: TextStyle(color: Colors.white),
